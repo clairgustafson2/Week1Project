@@ -7,8 +7,8 @@ public class App {
 		//price of items
 		double itemPrice1 = 88.95;
 		double itemPrice2 = 9.76;
-		System.out.println("The price of the black purse is" + " " + itemPrice1);
-		System.out.println("The price of the movie ticket is" + " " + itemPrice2);
+		System.out.println("The price of the black purse is" + " " + "$" + itemPrice1);
+		System.out.println("The price of the movie ticket is" + " " + "$" + itemPrice2);
 		
 		//amount of money in wallet
 		int walletAmount1 = 100;
@@ -32,7 +32,7 @@ public class App {
 		System.out.println("I will be" + " " + age2 + " " + "years old in December.");
 		
 		//B. number of friends I've made each year based on my age variable and my number of friends variable
-		System.out.println(age1 / numberOfFriends2019);
+		System.out.println("The total number of friends I make each year is" + " " + age1 / numberOfFriends2019);
 		
 		//first names
 		String firstName1 = "Clair";

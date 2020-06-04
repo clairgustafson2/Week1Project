@@ -58,9 +58,6 @@ public class App {
 		
 		//C. Full name
 		System.out.println("My name is" + ' ' + firstName1 + ' ' + middleInitial1 + ' ' + lastName1);
-		
-		
-
 	}
 
 }

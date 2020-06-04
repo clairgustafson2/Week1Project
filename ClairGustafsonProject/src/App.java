@@ -17,7 +17,11 @@ public class App {
 		System.out.println("My husabnd has" + " " + "$" + walletAmount2 + " " + "in his wallet.");
 				
 		//A. amount of money in wallet after item is purchased
-		System.out.println(walletAmount1 - itemPrice1);
+		double total = walletAmount1 - itemPrice1;
+		double roundoff = Math.round(total*100.0)/100.0;
+		System.out.println(total);
+		System.out.println(roundoff);
+		System.out.println("I bought a purse and now have" + " " + "$" + roundoff + " " + "in my wallet.");
 		
 		//number of friends
 		int numberOfFriends2019 = 13;
